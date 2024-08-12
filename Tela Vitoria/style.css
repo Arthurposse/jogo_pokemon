@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C486B;
+}
+
+img {
+    border: #F45050 8px solid;
+    width: 135vw;
+    height: 115vh;
+    margin-left: -1%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+
+    /* width: 100%;
+    margin-left: 5%;
+    margin-top: 3%; */
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h2, p {
+    color: white;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+}
+
+button {
+    background-color: #F45050;
+    border: #3C486B 3px solid;
+    border-radius: 2vw;
+    width: 15vw;
+    height: 5vh;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+    margin: 2%;
+    filter: drop-shadow(3px 3px 5px #000000);
+}

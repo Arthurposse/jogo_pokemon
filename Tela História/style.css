@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background: url('../Imagens/Gifs/Carro.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin-top: 8%;
+}
+
+.pt_esquerda {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.pt_esquerda p {
+    width: 40%;
+}
+
+.pt_esquerda button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F45050;
+    color: white;
+    width: 10%;
+    padding: 1%;
+    margin-top: 2%;
+    border: 0;
+    border-radius: 2vw;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.pt_direita {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+.pt_direita button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F45050;
+    color: white;
+    width: 10%;
+    height: 2vh;
+    padding: 1%;
+    border: 0;
+    border-radius: 2vw;
+    font-size: 0.7rem;
+    visibility: collapse;
+    cursor: pointer;
+}

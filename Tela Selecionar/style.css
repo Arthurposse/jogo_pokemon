@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: url("../Imagens/Background/Tela\ Seleção\ Perso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pikachu_andante {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    width: 8%;
+    margin-top: 2%;
+
+} @keyframes slidein {
+    from {
+        margin-left: -25%;
+    }
+
+    to {
+        margin-left: 22%;
+    }
+}
+
+.titulo_escolha_perso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Imagens/Fundo\ Escolha\ Perso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 6vh;
+    font-size: 0.6rem;
+}
+
+.personagem_section {
+    display: flex;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+.bloco_perso {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Ash, .Serena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #3C486B;
+    width: 100%;
+    height: 46vh;
+    border-radius: 2vw;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.Ash img, .Serena img {
+    width: 60%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F45050;
+    border: #3C486B 5px solid;
+    border-radius: 2vw;
+    height: 5vh;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+}

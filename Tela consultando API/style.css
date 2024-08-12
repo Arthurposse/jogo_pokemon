@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    overflow-y: hidden;
+}
+
+html {
+    opacity: 0;
+}
+
+body {
+    background-image: url("../Imagens/Background/Tela\ PC.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#seta {
+    align-self: flex-start;
+    margin-top: 4%;
+    margin-left: 17%;
+    width: 5%;
+    cursor: pointer;
+}
+
+.barra_pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.logo {
+    width: 24%;
+    margin-top: 6%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+div img {
+    width: 7%;
+    cursor: pointer;
+}
+
+input {
+    background-color: #F9D949;
+    padding: 2%;
+    width: 30vw;
+    border-radius: 2vw;
+    border: 0;
+}
+
+#gif_load {
+    width: 12%;
+    visibility: collapse;
+}

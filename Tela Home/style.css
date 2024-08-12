@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: url("../Imagens/Background/Background\ Tela\ Inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.logo {
+    width: 10%;
+}
+
+#botao_start {
+    margin-top: 8%;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #3C486B;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F45050;
+    margin-top: 4%;
+    padding-top: 4%;
+    border-radius: 2vw;
+    width: 70vw;
+    height: 80vh;
+    color: #3C486B;
+}
+
+.bloco section {
+    align-self: flex-start;
+}
+
+.bloco section h4 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10%;
+    width: 100%;
+}
+
+#botao_voltar {
+    align-self: flex-start;
+    margin-top: 2%;
+    width: 5%;
+    cursor: pointer;
+}

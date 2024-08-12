@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-image: url("../Imagens/Background/Tela\ PC.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: #F45050;
+    width: 60%;
+    height: 76vh;
+    border-radius: 2vw;
+    margin-top: 5%;
+}
+
+#seta {
+    margin: 2%;
+    width: 8%;
+    cursor: pointer;
+}
+
+.nome_img_pok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#img_pok {
+    width: 15%;
+}
+
+.nome_img_pok h2 {
+    font-size: 1.2rem;
+}
+
+.infos_pok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 4%;
+}
+
+.infos_pok section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.infos_pok h2, .infos_pok p {
+    display: flex;
+    gap: 10px;
+    font-size: 0.8rem;
+}

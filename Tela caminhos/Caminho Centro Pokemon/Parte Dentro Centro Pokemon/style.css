@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+section {
+    background: url(../../../Imagens/Background/Dentro\ Centro\ Pokemon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80vw;
+    height: 95vh;
+}
+
+.ponto_exclamacao {
+    position: relative;
+    left: 27%;
+    top: 6%;
+    width: 5%;
+    visibility: collapse;
+}
+
+#interacao_doutora {
+    position: relative;
+    top: -45%;
+    left: 52%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #3C486B;
+    border-radius: 2vw;
+    padding: 2%;
+    width: 20%;
+    visibility: collapse;
+}
+
+#interacao_doutora button {
+    background-color: #F45050;
+    width: 100%;
+    height: 4vh;
+    border-radius: 2vw;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.5rem;
+}
+
+.esc_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: collapse;
+    padding-top: 8%;
+}
+
+.bloco_esc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F45050;
+    width: 40%;
+    height: 50vh;
+    border-radius: 2vw;
+    border: #3C486B 10px solid;
+    color: #3C486B;
+    font-size: 1.2em;
+}
+
+.botao_X {
+    width: 6%;
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-bottom: -7%;
+    cursor: pointer;
+}
+
+.Botoes {
+    width: 50%;
+    cursor: pointer;
+}
+
+#falas {
+    display: flex;
+    justify-content: center;
+    margin-top: -1%;
+    color: white;
+    font-size: 1rem;
+    visibility: collapse;
+}
+
+#boneco {    
+    position: absolute;
+    visibility: collapse;
+    width: 3.2%;
+}
